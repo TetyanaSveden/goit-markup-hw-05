@@ -40,7 +40,7 @@
             <div class="container-flex">  
              
             <h1 class="headline">Эффективные решения для вашего бизнеса</h1>           
-            <button class="order">Заказать услугу</button> 
+            <button class="order" data-modal-open>Заказать услугу</button> 
             </div>
     </div>
         </section>    
@@ -266,8 +266,9 @@
     </div>
 </div>
 </footer>
-<div class="backdrop"><div class="modal">
-    <button class="modal-close-btn"></button>
+<div class="backdrop is-hidden" data-modal><div class="modal">
+    <button class="modal-close-btn" data-modal-close>&#10006;</button>
 </div></div>
+<script src="./js/modals.js"></script>
 </body>
 </html>

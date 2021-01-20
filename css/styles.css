@@ -574,7 +574,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.02);
+  background: rgba(0, 0, 0, 0.219);
 }
 .modal {
   position: absolute;
@@ -584,4 +584,19 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--main-background-color);
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--main-background-color);
+  border: 1px solid rgba(0, 0, 0, 0.103);
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
