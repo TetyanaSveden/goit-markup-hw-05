@@ -536,6 +536,27 @@ img {
   padding: 20px 24px;
 }
 
+.photo-moving {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-moving .moving {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+.lidecor:hover .moving,
+.lidecor:focus .moving {
+  transform: translateY(0);
+}
+
 /* our clients*/
 .clients-list {
   display: flex;
