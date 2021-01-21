@@ -547,6 +547,7 @@ img {
   height: 100%;
   left: 0;
   bottom: 0;
+  padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
@@ -555,6 +556,12 @@ img {
 .lidecor:hover .moving,
 .lidecor:focus .moving {
   transform: translateY(0);
+}
+.moving-text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--main-background-color);
 }
 
 /* our clients*/
