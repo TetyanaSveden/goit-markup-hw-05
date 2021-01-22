@@ -68,12 +68,14 @@ img {
 .head {
   justify-content: space-between;
   display: flex;
-  border-bottom: 1px solid var(--line-color);
+
   align-items: center;
 }
 
 .header-color {
   background: var(--main-background-color);
+  border-bottom: 1px solid var(--line-color);
+  width: 100%;
 }
 
 /*logo*/
