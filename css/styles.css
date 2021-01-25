@@ -157,9 +157,11 @@ img {
   transition: var(--transition);
 }
 
+.current.links::after,
 .links:hover::after {
   opacity: 1;
 }
+
 
 .links:hover,
 .links:focus {
