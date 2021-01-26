@@ -125,11 +125,13 @@ img {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: var(--transition);
 }
 .phone-color:hover,
 .phone-color:focus {
   color: var(--text-color-lightblue);
   fill: currentColor;
+  transition: var(--transition);
 }
 
 .links {
@@ -141,6 +143,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: var(--transition);
 }
 .links::after {
   content: "";
@@ -160,12 +163,14 @@ img {
 .current.links::after,
 .links:hover::after {
   opacity: 1;
+  transition: var(--transition);
 }
 
 .links:hover,
 .links:focus {
   color: var(--text-color-lightblue);
   fill: currentColor;
+  transition: var(--transition);
 }
 
 /* footer */
@@ -207,16 +212,19 @@ img {
 .footer-phone {
   text-decoration: none;
   color: var(--text-color-grey-through);
+  transition: var(--transition);
 }
 
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--text-color-lightblue);
+  transition: var(--transition);
 }
 
 .footer-phone:hover,
 .footer-phone:focus {
   color: var(--text-color-lightblue);
+  transition: var(--transition);
 }
 
 .footer-contakt {
@@ -244,11 +252,13 @@ img {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
+  transition: var(--transition);
 }
 
 .footer-link-flow:hover,
 .footer-link-flow:focus {
   background-color: var(--blue-light-color);
+  transition: var(--transition);
 }
 .footer-link-flow:last-child {
   margin-right: 0;
@@ -437,11 +447,13 @@ img {
 }
 .ikonssvg {
   color: var(--main-background-color);
+  transition: var(--transition);
 }
 .ikonssvg:hover,
 .ikonssvg:focus {
   color: var(--main-background-color);
   fill: var(--main-background-color);
+  transition: var(--transition);
 }
 .foot-ikonssvg {
   fill: var(--main-background-color);
@@ -455,6 +467,7 @@ img {
   height: 44px;
   border-radius: 50%;
   fill: var(--text-ikons-grey);
+  transition: var(--transition);
 }
 .link-space {
   margin-right: 10px;
@@ -464,8 +477,9 @@ img {
 }
 .link-flow:hover,
 .link-flow:focus {
-  fill: var(--line-color);
+  fill: var(--main-background-color);
   background-color: var(--blue-light-color);
+  transition: var(--transition);
 }
 /*  portfolio buttons  */
 .buttons {
@@ -548,6 +562,7 @@ img {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: var(--transition);
 }
 .flex-links-element:nth-child(3n) {
   margin-right: 0;
@@ -578,6 +593,7 @@ img {
 .lidecor:hover .moving,
 .lidecor:focus .moving {
   transform: translateY(0);
+  transition: var(--transition);
 }
 .moving-text {
   font-size: 18px;
@@ -605,11 +621,13 @@ img {
   border: 1px solid var(--text-ikons-grey);
   border-radius: 4px;
   color: var(--text-ikons-grey);
+  transition: var(--transition);
 }
 .link-size:hover,
 .link-size:focus {
   color: var(--text-color-lightblue);
   border: 1px solid var(--blue-light-color);
+  transition: var(--transition);
 }
 
 .clients-color {
