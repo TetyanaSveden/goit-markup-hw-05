@@ -48,7 +48,9 @@ nav .links.current {
   display: block;
 }
 
-img {
+img,
+svg,
+a {
   display: block;
 }
 
@@ -541,6 +543,7 @@ img {
 }
 
 .lidecor {
+  display: block;
   text-decoration: none;
   color: var(--text-color-dark);
 }
@@ -595,6 +598,8 @@ img {
 .lidecor:focus .moving {
   transform: translateY(0);
   transition: var(--transition);
+  transform: box-shadow 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .moving-text {
   font-size: 18px;
